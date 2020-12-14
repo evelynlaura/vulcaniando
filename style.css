@@ -57,8 +57,11 @@ main, header img {
   transition:transform .2s cubic-bezier(0.04, 1.1, 1, 1);
 }
 
-.menu-principal a:hover ,
-#vulcanismo .menu a[href="vulcanismo.html"] {
+.menu-principal a:hover , #vulcanismo
+.menu a[href="vulcanismo.html"], #geologia
+.menu a[href="geologia.html"], #recordes
+.menu a[href="recordes.html"], #creditos
+.menu a[href="creditos.html"] {
   color: black;
   background-color: white;
   transform: scale(1.2);
