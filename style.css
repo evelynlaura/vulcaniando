@@ -42,11 +42,11 @@ main, header img {
   margin-left: auto;
 }
 
-.menu-principal a:hover, #vulcanismo
-.menu a[href="vulcanismo.html"], #geologia
-.menu a[href="geologia.html"], #recordes
-.menu a[href="recordes.html"], #creditos
-.menu a[href="creditos.html"] {
+.menu-principal a:hover,
+#vulcanismo .menu a[href="vulcanismo.html"],
+#geologia .menu a[href="geologia.html"],
+#recordes .menu a[href="recordes.html"],
+#creditos .menu a[href="creditos.html"] {
   color: black;
   background-color: white;
   transform: scale(1.2);
@@ -416,13 +416,6 @@ tfoot {
   height: 100vh;
 }
 
-#informacoes-creditos h2 {
-  font-family: 'Questrial', sans-serif;
-  font-size: 100px;
-  width: 55%;
-  color: white;
-}
-
 #informacoes-creditos p {
   opacity: 0.8;
   width: 55%;
@@ -431,6 +424,8 @@ tfoot {
 }
 
 #referencias {
+  position: relative;
+  top: -210px;
   margin-top: 15%;
   margin-bottom: 5%;
 }
