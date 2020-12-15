@@ -1,6 +1,11 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+header {
+  height: 100%;
+}
+
 main, header {
   margin-left: 5%;
   margin-right: 5%;
@@ -183,7 +188,6 @@ ul img {
   font-family: 'Questrial', sans-serif;
   font-size: 100px;
   width: 80%;
-  height: 65%;
   color: white;
   display: flex;
   align-self: center;
@@ -370,8 +374,8 @@ tfoot {
   color: white;
 }
 #referencias {
-  margin-top: 15%;
-  margin-bottom: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 #referencias h2 {
   margin-top: 5%;
